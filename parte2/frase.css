@@ -10,7 +10,7 @@
 
 body {
   height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Bree Serif", serif;
 }
 
 main {
@@ -28,26 +28,26 @@ main {
   font-size: 2rem;
 }
 
+
 #testoAlternato .parole {
-    color: #6c889c;
-    position: relative;
-    display: inline-block;
-    width: 35%;
-    height: 30px;
-    overflow: hidden;
+  color: #6c889c;
+  position: relative;
+  display: inline-block;
+  bottom: -10px;
+  width: 35%;
+  height: 40px;
 }
 
 #testoAlternato .parole i {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 1.7rem;
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
 }
 
 #testoAlternato .parole i.mostra {
-    opacity: 1;
-    transform: translateY(0);
+  opacity: 1;
+  transform: translateY(0);
 }
